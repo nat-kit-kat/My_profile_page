@@ -9,4 +9,4 @@ def index():
 def redirect_to_profile():
     return redirect(url_for('index'))
 
-app.run(host="localhost", port=5000, debug=True)
+app.run(host="localhost", port=42999, debug=True)
